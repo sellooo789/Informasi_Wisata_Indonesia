@@ -1,0 +1,69 @@
+/* Desain Umum Halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigasi / Menu */
+nav {
+    background-color: #333333;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffeb3b; /* Warna berubah kuning saat di-hover cursor */
+}
+
+/* Pembungkus Konten Utama & Sidebar */
+.container {
+    width: 90%;
+    margin: 20px auto;
+}
+
+/* Area Artikel Utama */
+.konten {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.galeri-foto img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+}
+
+/* Area Sidebar */
+.sidebar {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
